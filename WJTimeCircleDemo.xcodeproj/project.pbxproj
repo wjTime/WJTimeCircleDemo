@@ -15,6 +15,7 @@
 		CB7B3A7A1CFD3AAA003F8A2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB7B3A781CFD3AAA003F8A2C /* LaunchScreen.storyboard */; };
 		CB7B3A851CFD3AAA003F8A2C /* WJTimeCircleDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7B3A841CFD3AAA003F8A2C /* WJTimeCircleDemoTests.m */; };
 		CB7B3A901CFD3AAA003F8A2C /* WJTimeCircleDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7B3A8F1CFD3AAA003F8A2C /* WJTimeCircleDemoUITests.m */; };
+		CB7B3AA01CFD3AF6003F8A2C /* WJTimeCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7B3A9F1CFD3AF6003F8A2C /* WJTimeCircle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		CB7B3A8B1CFD3AAA003F8A2C /* WJTimeCircleDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJTimeCircleDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB7B3A8F1CFD3AAA003F8A2C /* WJTimeCircleDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJTimeCircleDemoUITests.m; sourceTree = "<group>"; };
 		CB7B3A911CFD3AAA003F8A2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB7B3A9E1CFD3AF6003F8A2C /* WJTimeCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJTimeCircle.h; sourceTree = "<group>"; };
+		CB7B3A9F1CFD3AF6003F8A2C /* WJTimeCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJTimeCircle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		CB7B3A5E1CFD3AAA003F8A2C = {
 			isa = PBXGroup;
 			children = (
+				CB7B3A9D1CFD3AE4003F8A2C /* WJTimeCircle */,
 				CB7B3A691CFD3AAA003F8A2C /* WJTimeCircleDemo */,
 				CB7B3A831CFD3AAA003F8A2C /* WJTimeCircleDemoTests */,
 				CB7B3A8E1CFD3AAA003F8A2C /* WJTimeCircleDemoUITests */,
@@ -138,6 +142,15 @@
 				CB7B3A911CFD3AAA003F8A2C /* Info.plist */,
 			);
 			path = WJTimeCircleDemoUITests;
+			sourceTree = "<group>";
+		};
+		CB7B3A9D1CFD3AE4003F8A2C /* WJTimeCircle */ = {
+			isa = PBXGroup;
+			children = (
+				CB7B3A9E1CFD3AF6003F8A2C /* WJTimeCircle.h */,
+				CB7B3A9F1CFD3AF6003F8A2C /* WJTimeCircle.m */,
+			);
+			path = WJTimeCircle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +286,7 @@
 				CB7B3A721CFD3AAA003F8A2C /* ViewController.m in Sources */,
 				CB7B3A6F1CFD3AAA003F8A2C /* AppDelegate.m in Sources */,
 				CB7B3A6C1CFD3AAA003F8A2C /* main.m in Sources */,
+				CB7B3AA01CFD3AF6003F8A2C /* WJTimeCircle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +512,7 @@
 				CB7B3A961CFD3AAA003F8A2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB7B3A971CFD3AAA003F8A2C /* Build configuration list for PBXNativeTarget "WJTimeCircleDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +521,7 @@
 				CB7B3A991CFD3AAA003F8A2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB7B3A9A1CFD3AAA003F8A2C /* Build configuration list for PBXNativeTarget "WJTimeCircleDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +530,7 @@
 				CB7B3A9C1CFD3AAA003F8A2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
