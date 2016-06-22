@@ -22,13 +22,13 @@
 
 - (WJTimeCircle *)timeCircle{
     if (_timeCircle == nil) {
-        _timeCircle = [[WJTimeCircle alloc] initWithFrame:CGRectMake(self.view.frame.size.width - 85 + 17.5, 17.5, 50, 50)];
+        _timeCircle = [[WJTimeCircle alloc] initWithFrame:CGRectMake(self.view.frame.size.width - 185 + 17.5, 100+17.5, 50, 50)];
         _timeCircle.arcFinishColor = [UIColor colorWithRed:250/255.0 green:250/255.0 blue:250/255.0 alpha:1];
         _timeCircle.arcUnfinishColor = [UIColor greenColor];
         _timeCircle.arcBackColor = [UIColor whiteColor];
         _timeCircle.baseColor = [UIColor colorWithRed:250/255.0 green:250/255.0 blue:250/255.0 alpha:1];
         _timeCircle.width = 3;
-        _timeCircle.totalSecond = 15 * 60;
+        _timeCircle.totalSecond = 2 * 60;
         _timeCircle.isStartDisplay = YES;
         [self.view addSubview:_timeCircle];
     }
@@ -37,7 +37,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.second = 60 * 15;
+    self.second = 2 * 60;
     self.timer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(timeAnim) userInfo:nil repeats:YES];
     
 }
